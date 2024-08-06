@@ -5,7 +5,7 @@ import subprocess
 import uuid
 
 out = "../dist/*"
-blacklist = ["./CNAME", "./.git", "./push.py"]
+blacklist = ["./CNAME", "./.git", "./push.py", "./readme.md"]
 
 for file in glob.glob("./*"):
     if file in blacklist:
